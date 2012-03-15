@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>[[*pagetitle]] - [[++site_name]]</title>
+        <base href="[[++site_url]]" />
+        <link rel="stylesheet" type="text/css" media="screen" href="[[++base_url]]assets/css/reset.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="[[++base_url]]assets/css/menu.css" /> 
+        <link rel="stylesheet" type="text/css" media="screen" href="[[++base_url]]assets/css/style.css" /> 
+        <link rel="stylesheet" type="text/css" media="screen" href="[[++base_url]]assets/css/v1/base.css" /> 
+        <title>Octet</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="left">
+                <header class="gradient">
+                     <a href="[[++base_url]]"><img src="[[++base_url]]assets/images/logo-octet-blanc.png" /></a>
+                </header>
+                <div class="left-wrapper">
+                    <nav id="menu-principal">[[Wayfinder? &startId=`0`]]</nav>
+                    <div class="clear"></div>
+                    <img src="[[++base_url]]assets/images/illustration-mobilite.png" class="design" />
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            
+            <div id="content">
+              <section>
+                [[!getResources? &parents=`0` &tpl=`resource`  &includeContent=`true` &limit=`0` &showHidden=`1` &sortby=`id` &sortdir=`ASC` &includeTVs=`1`]]
+              </section>
+            </div>
+        </div>
+            <footer>
+     
+            </footer>
+    </body>
+</html>
