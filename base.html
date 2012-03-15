@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" media="screen" href="[[++base_url]]assets/css/reset.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="[[++base_url]]assets/css/style.css" /> 
         <title>Octet</title>
+        <script src="[[++base_url]]assets/js/jquery.js"  ></script>   
     </head>
     <body>
         <div id="wrapper">
@@ -15,15 +16,15 @@
                      <img src="[[++base_url]]assets/images/logo-octet.png" />
                 </header>
                 <div id="content">
-                    [[!getResources? &parents=`0` &depth=`0` &tpl=`resource`  &includeContent=`true` &limit=`0` &showHidden=`1` &sortby=`id` &sortdir=`ASC` &includeTVs=`1`]]
+                    [[!getResources? &parents=`0` &depth=`0` &tpl=`resource`  &includeContent=`true` &limit=`0` &showHidden=`1` &sortby=`menuindex` &sortdir=`ASC` &includeTVs=`1`]]
                 </div>
             </div>
             <nav id="menu-principal">
-                <ul>[[!getResources? &parents=`0` &depth=`0` &tpl=`row` &limit=`0` &sortby=`id` &sortdir=`ASC`]]</ul>
+                <ul>[[!getResources? &parents=`0` &depth=`0` &tpl=`row` &limit=`0` &sortby=`menuindex` &sortdir=`ASC`]]</ul>
 
             </nav>
         </div>
-        <script defer src="[[++base_url]]assets/js/jquery.js"  ></script>
+        
         <script defer src="[[++base_url]]assets/js/jquery.easing.js"  ></script>
         <script defer src="[[++base_url]]assets/js/behavior.js"  ></script>
     </body>
