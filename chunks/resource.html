@@ -3,7 +3,7 @@
   <div>
         [[+content]]
   </div>
-  <div>
-        <img class='img-section' src="[[++base_url]][[+tv.img-design]]" />
+  <div class="img-section">
+        [[+tv.img-design:isnot=``:then=`<img class='img-section' src="[[++base_url]][[+tv.img-design]]" />`]]
   </div>
 </section>

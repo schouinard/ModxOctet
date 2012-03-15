@@ -6,7 +6,6 @@
         <base href="[[++site_url]]" />
         <link rel="stylesheet" type="text/css" media="screen" href="[[++base_url]]assets/css/reset.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="[[++base_url]]assets/css/style.css" /> 
-        <link rel="stylesheet" type="text/css" media="screen" href="[[++base_url]]assets/css/v1/base.css" /> 
         <title>Octet</title>
     </head>
     <body>
@@ -16,20 +15,12 @@
                      <img src="[[++base_url]]assets/images/logo-octet.png" />
                 </header>
                 <div id="content">
-                    [[!getResources? &parents=`0` &tpl=`resource`  &includeContent=`true` &limit=`0` &showHidden=`1` &sortby=`id` &sortdir=`ASC` &includeTVs=`1`]]
+                    [[!getResources? &parents=`0` &depth=`0` &tpl=`resource`  &includeContent=`true` &limit=`0` &showHidden=`1` &sortby=`id` &sortdir=`ASC` &includeTVs=`1`]]
                 </div>
             </div>
             <nav id="menu-principal">
-                <ul class="logo-octet">
-                    <li><a href="/#accueil"><span>Accueil</span></a></li>
-                    <li><a href="/#equipe"><span>Équipe</span></a></li>
-                    <li><a href="/#realisations"><span>Réalisations</span></a></li>
-                    <li><a href="/#strategie"><span>Stratégie Web</span></a></li>
-                    <li><a href="/#mobilite"><span>Mobilité</span></a></li>
-                    <li><a href="/#accessibilite"><span>Accessibilité</span></a></li>
-                    <li><a href="/#hebergement"><span>Hébergement</span></a></li>
-                    <li><a href="/#contact"><span>Pour nous trouver</span></a></li>
-                </ul>
+                <ul>[[!getResources? &parents=`0` &depth=`0` &tpl=`row` &limit=`0` &sortby=`id` &sortdir=`ASC`]]</ul>
+
             </nav>
         </div>
         <script defer src="[[++base_url]]assets/js/jquery.js"  ></script>
