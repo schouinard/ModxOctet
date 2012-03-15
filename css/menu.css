@@ -1,0 +1,12 @@
+/** menu ****/
+ul.logo-octet{ list-style:none; width: 100%; height:100%;  padding:0; margin-top: 3%; }
+ul.logo-octet li { float:left; margin:0 3% 3% 0; width:30%; height:30%; background-color: #595959; border-radius:18%; }
+
+ul.logo-octet li.fifth { margin-left:33%;}
+ul.logo-octet li a { display:block; text-decoration:none;  text-align:center; color: #f2efe4; height: 25%; padding-top: 75%; font-size: 0.9em;}
+ul.logo-octet li a:hover {  border-radius:18%; background-color: #454545;}
+ul.logo-octet li a span {}
+ul.logo-octet li.last a {}
+ul.logo-octet li.last a span {}
+span.logo-octet { display:block; clear:both; text-transform:uppercase; font-weight:bold; position:relative; width: 400px; font-size: 5.2em; margin-right: 100px; }
+/** fin menu /****/

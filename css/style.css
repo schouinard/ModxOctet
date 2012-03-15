@@ -1,0 +1,66 @@
+
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Orbitron-Light'), local('Orbitron-Regular'), url('http://themes.googleusercontent.com/static/fonts/orbitron/v3/94ug0rEgQO_WuI_xKJMFc3YhjbSpvc47ee6xR_80Hnw.woff') format('woff');
+}
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Orbitron-Bold'), url('http://themes.googleusercontent.com/static/fonts/orbitron/v3/Y82YH_MJJWnsH2yUA5AuYbrIa-7acMAeDBVuclsi6Gc.woff') format('woff');
+}
+@font-face {
+  font-family: 'Bowlby One';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bowlby One'), local('BowlbyOne'), url('http://themes.googleusercontent.com/static/fonts/bowlbyone/v4/xBO3ZdzVBqGO6i8GOIrhUL3hpw3pgy2gAi-Ip7WPMi0.woff') format('woff');
+}
+@font-face {
+  font-family: 'Yellowtail';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Yellowtail'), url('http://themes.googleusercontent.com/static/fonts/yellowtail/v3/GcIHC9QEwVkrA19LJU1qlL3hpw3pgy2gAi-Ip7WPMi0.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gudea';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gudea'), url('http://themes.googleusercontent.com/static/fonts/gudea/v1/kfCeUiT0HGXHQC8YVeaKy6CWcynf_cDxXwCLxiixG1c.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gudea';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Gudea Italic'), local('Gudea-Italic'), url('http://themes.googleusercontent.com/static/fonts/gudea/v1/tZZo84E1pZ1XbFCB5vu4pwLUuEpTyoUstqEm5AMlJo4.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gudea';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Gudea Bold'), local('Gudea-Bold'), url('http://themes.googleusercontent.com/static/fonts/gudea/v1/6M2RKly85u67vSsXH0-zqnYhjbSpvc47ee6xR_80Hnw.woff') format('woff');
+}
+
+.yellowtail{ font-family: 'Yellowtail', cursive; }
+.orbitron{ font-family: 'Orbitron', sans-serif; }
+.bowlby{ font-family: 'Bowlby One', cursive; }
+.gudea { font-family: 'Gudea', sans-serif; }
+
+html { min-height: 100%; }
+
+body{ font-family: futura, helvetica, arial, sans-serif; position: relative; font-size: 100%; color: #333; position: relative; min-height: 100%; }
+
+.orange { color: #f8971d; }
+.clear { clear: both; }
+.gradient {
+    background: rgb(109,109,109); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(109,109,109,1) 0%, rgba(84,84,84,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(109,109,109,1)), color-stop(100%,rgba(84,84,84,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(109,109,109,1) 0%,rgba(84,84,84,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(109,109,109,1) 0%,rgba(84,84,84,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(109,109,109,1) 0%,rgba(84,84,84,1) 100%); /* IE10+ */
+    background: linear-gradient(top,  rgba(109,109,109,1) 0%,rgba(84,84,84,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d6d6d', endColorstr='#545454',GradientType=0 ); /* IE6-9 */
+}
