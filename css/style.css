@@ -48,9 +48,11 @@
 .bowlby{ font-family: 'Bowlby One', cursive; }
 .gudea { font-family: 'Gudea', sans-serif; }
 
+* { margin: 0; padding: 0; }
+
 html { min-height: 100%; }
 
-body{ font-family: futura, helvetica, arial, sans-serif; position: relative; font-size: 100%; color: #333; position: relative; min-height: 100%; }
+body{  font-family: 'Gudea', sans-serif;  position: relative; font-size: 1em; color: #333; position: relative; min-height: 100%; }
 
 .orange { color: #f8971d; }
 .clear { clear: both; }
