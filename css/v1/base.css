@@ -3,6 +3,8 @@ header {}
 h1 { font-size: 3em; text-shadow: 1px 1px 0 #FFFFFF; margin-top: 15px; color: #000; font-weight: normal;  }
 h2 { font-size: 1.2em; text-shadow: 1px 1px 0 #FFFFFF; margin: 10px 0 0; font-weight: normal; }
 
+
+
 #wrapper { width: 800px; margin: 0 auto; position: relative; min-height: 100%; }
 
 
@@ -14,5 +16,25 @@ h2 { font-size: 1.2em; text-shadow: 1px 1px 0 #FFFFFF; margin: 10px 0 0; font-we
 #menu-principal { text-align: right; width: 12em; position: fixed; top: 30px; left :0; }
 #menu-principal ul { list-style-type: none; margin: 4em 6% 0 0;  }
 #menu-principal li { margin:  1em; }
-#menu-principal a { color: #333; text-decoration: none; font-size: 120%; font-weight: bold; font-style: italic;  }
 
+#menu-principal a { color: #333; text-decoration: none; font-size: 120%; font-weight: bold; font-style: italic;  }
+#menu-principal a.selected { color: #f8971d; }
+
+input[type="text"], textarea {
+    -webkit-appearance: none;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px 0px #dbe2e9, 0 0 0 3px #e4e4e4;
+    -moz-box-shadow: inset 0 1px 2px 0px #dbe2e9, 0 0 0 3px #e4e4e4;
+    box-shadow: inset 0 1px 2px 0px #dbe2e9, 0 0 0 3px #e4e4e4;
+    z-index: 2;
+    border: 1px solid #BFBFBF;
+    padding: 7px;
+    width: 370px;
+    font-size: 105%;
+    position: relative;
+    color: #646464;
+    display: block;
+}
+input { display: block;  }
