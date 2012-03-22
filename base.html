@@ -2,12 +2,18 @@
 <html lang="fr">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
         <title>[[*pagetitle]] - [[++site_name]]</title>
         <base href="[[++site_url]]" />
+        <link href='http://fonts.googleapis.com/css?family=Coustard' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" media="screen" href="[[++base_url]]assets/css/reset.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="[[++base_url]]assets/css/style.css" /> 
         <title>Octet</title>
-        <script src="[[++base_url]]assets/js/jquery.js"  ></script>   
+        <script src="[[++base_url]]assets/js/jquery.js"  ></script> 
+        <!--[if lt IE 9]>
+        <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+        <![endif]-->  
     </head>
     <body>
         <div id="wrapper">
@@ -16,12 +22,12 @@
                      <img src="[[++base_url]]assets/images/logo-octet.png" />
                 </header>
                 <div id="content">
-                    [[!getResources? &parents=`0` &depth=`0` &tpl=`resource`  &includeContent=`true` &limit=`0` &showHidden=`1` &sortby=`menuindex` &sortdir=`ASC` &includeTVs=`1`]]
+                    [[!getResources? &context=`web` &parents=`0` &depth=`0` &tpl=`resource`  &includeContent=`true` &limit=`0` &showHidden=`1` &sortby=`menuindex` &sortdir=`ASC` &includeTVs=`1`]]
                 </div>
             </div>
             <nav id="menu-principal">
 
-                <ul>[[!getResources? &parents=`0` &depth=`0` &tpl=`row` &limit=`0` &sortby=`menuindex` &sortdir=`ASC`]]</ul>
+                <ul>[[!getResources? &context=`web` &parents=`0` &depth=`0` &tpl=`row` &limit=`0` &sortby=`menuindex` &sortdir=`ASC`]]</ul>
 
             </nav>
         </div>
